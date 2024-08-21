@@ -19,7 +19,6 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +45,8 @@
         <!-- Data and User Personas Edits -->
         <div class="row gx-4 gx-lg-5 align-items-center my-5">           
             <h3>Data Collecting</h3>
-            <p>A form was sent out to current members, including the administrative board, to assess the expectations for the app. Once all the forms were submitted, a process of data screening was done to identify key goals and expectations that the church has. 
+            <p>There was a series of meetings between board officials, consumers,and project sponsors to determine what key features should be displayed on the app.
+                I've highlighted some of the goals and potential painpoints that were mentioned in these meetins</p> 
                 <br>
                 <br>
                 <strong>Goals:</strong> 
@@ -61,20 +61,34 @@
                     <li>Security and Data breaches</li>
                 </ul>
             </p>
-            <p>Based on the data, I prepared user personas to give examples of who is using the app.</p>
+            <p>Based on this information, I created user personas to help identify who is using the app.
+                These user personas were built for my own knowledge to focus primarily on the key compontents needed for the design of the app</p>
+            </p>
         </div>
-
-        <div class="row justify-content-center">
-            <div class="col-lg-4 mb-3">
-                <img class="img-fluid rounded" src="images/Persona 2.png" alt="persona">
-            </div>
-            <div class="col-lg-4 mb-3">
-                <img class="img-fluid rounded" src="images/Persona 3.png" alt="persona3">
-            </div>
-            <div class="col-lg-4 mb-3">
-                <img class="img-fluid rounded" src="images/Persona 1.png" alt="persona1">
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="modalImage" class="img-fluid rounded" src="" alt="Enlarged image">
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="row justify-content-center gx-4 gx-lg-5 align-items-center my-5">
+            <div class="col-lg-12 mb-3">
+                <img class="img-fluid" src="images/Persona 2.png" alt="persona" onclick="enlargeImage(this)">
+            </div>
+            <div class="col-lg-12 mb-3">
+                <img class="img-fluid" src="images/Persona 3.png" alt="persona3" onclick="enlargeImage(this)">
+            </div>
+            <div class="col-lg-12 mb-3">
+                <img class="img-fluid" src="images/Persona 1.png" alt="persona1" onclick="enlargeImage(this)">
+            </div>
+        </div>
+        
         
         <!-- Section for wireframes and sketchwork -->
         <div class="row gx-4 gx-lg-5 align-items-center my-5">           
