@@ -47,8 +47,22 @@
 body {
     background-color: #f1f1f1; /* or any other grey shade */
     margin: 0; 
-    padding: 60px; 
+    padding: 100px; 
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif ;
+   
+    
 }
+
+/*app section                       app section        */
+
+
+
+
+
+
+
+
 
 
 
@@ -62,9 +76,23 @@ body {
     padding: 20px 0; 
 
 }
+.heading{
+    display: flex; /* Enables flex layout */
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center; /* Vertically centers the content */
+    padding: 20px; /* Adds some padding inside the heading section */
 
+}
+.header-img{
+    max-width: 150px; /* Sets a maximum width for the image */
+    height: auto; /* Keeps the image's aspect ratio */
+    margin-left: 20px; /* Adds space between text and image */
+}
 .text-content {
     max-width: 615px; 
+    align-items: center;
+    gap: 20px; 
+    max-width: 100%;
 }
 
 .text-content h1 {
@@ -114,7 +142,7 @@ body {
 
 /* Image Styling */
 .klap-image {
-    max-width: 60%; /* Ensures the image does not exceed the container width */
+    max-width: 70%; /* Ensures the image does not exceed the container width */
     height: auto;    /* Maintains the aspect ratio of the image */
     display: block;  /* Removes any extra space below the image */
     margin: 0 auto;  /* Centers the image horizontally within its container */
@@ -134,6 +162,25 @@ body {
     margin: 0 auto;  /* Centers the image horizontally within its container */
  
 }
+
+.app-image {
+    max-width: 60%; /* Ensures the image does not exceed the container width */
+    height: auto;    /* Maintains the aspect ratio of the image */
+    display: block;  /* Removes any extra space below the image */
+    margin: 0 auto;  /* Centers the image horizontally within its container */
+ 
+
+}
+/* app section             app section      */
+
+
+
+
+
+
+
+
+
 /* PODCAST IMAGE                    PODCAST IMAGE PODCAST IMAGE      */
 
 .image-container {
@@ -266,29 +313,17 @@ h4 {
 
 /* ABOUT ME SECTION                 ABOUT ME SECTION!!!     */
 
-.about row{
-    display: flex; /* Flexbox layout to place text and image side by side */
-    justify-content: space-between; /* Distributes space between text and image */
-    align-items: flex-start; /* Aligns the image with the top of the text */
-    gap: 20px; /* Space between the text and image */
 
-}
-.text{
-    flex: 1; /* Text takes up remaining space */
-    max-width: 60%; /* Adjust text width */
 
-}
-.about-me{
-    flex-shrink: 0; /* Prevents image from shrinking */
 
-}
 
-.profile-image{
-    max-width: 100%; /* Ensures the image doesn't exceed its container */
-    height: auto; /* Maintains the image aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners to the image */
 
-}
+
+
+
+
+
+
 
 /* TABLE SECTION                  TABLE SECTIONNNNNN!!!     */
 
